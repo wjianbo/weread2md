@@ -1,6 +1,9 @@
 # 书籍信息
 bookinfo_md_tmpl = """
-# {title}
++++
+title = "{title}"
+date = {publish_time}
++++
 
 > 作者： {author}
 > 
